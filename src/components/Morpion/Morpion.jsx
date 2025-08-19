@@ -94,7 +94,7 @@ const Morpion = () => {
         setLock(false);
         data = ["", "", "", "", "", "", "", "", ""];
         titleRef.current.innerHTML = "Morpion In <span>React</span>";
-        box_array.map((e) => {
+        box_array.forEach((e) => {
             e.current.innerHTML = "";
         });
     }
